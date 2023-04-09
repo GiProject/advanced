@@ -8,7 +8,7 @@ test('sort', () => {
     attack: 80,
     defence: 40,
   };
-  let result = orderByProps(obj, ['name', 'defence']);
+  const result = orderByProps(obj, ['name', 'defence']);
   expect(result)
     .toEqual([{
       key: 'name',
