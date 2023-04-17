@@ -29,5 +29,5 @@ const character = {
   }
 
 
-console.log(JSON.stringify(getSpecialSkills(character)));
+console.log(getSpecialSkills(character));
 
