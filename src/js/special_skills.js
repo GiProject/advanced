@@ -6,12 +6,6 @@ export default function getSpecialSkills(character) {
       && Object.keys(character.special[index]).length !== 0
       && Object.getPrototypeOf(character.special[index]) === Object.prototype) {
         arResult.push(getSpecialAttack(character.special[index]));
-      //   let skill = {};
-      //   Object.defineProperty(skill, 'description', {
-      //     value: 'Описание недоступно',
-      //     enumerable: true,
-      //   });
-      // arResult.push({...skill, ...character.special[index]});
     }
   }
 
